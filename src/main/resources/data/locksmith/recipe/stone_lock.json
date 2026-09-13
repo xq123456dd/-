@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "locksmith_lock",
+  "pattern": [
+    "MM",
+    "MN"
+  ],
+  "key": {
+    "M": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "locksmith:stone_lock",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "locksmith_lock",
+  "pattern": [
+    " N ",
+    " I "
+  ],
+  "key": {
+    "N": {
+      "item": "minecraft:netherite_ingot"
+    },
+    "I": {
+      "item": "locksmith:iron_lock"
+    }
+  },
+  "result": {
+    "id": "locksmith:netherite_lock",
+    "count": 1
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "group": "locksmith_lock",
+  "pattern": [
+    "MM",
+    "MN"
+  ],
+  "key": {
+    "M": {
+      "item": "minecraft:diamond"
+    },
+    "N": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "locksmith:diamond_lock",
+    "count": 1
+  }
+}

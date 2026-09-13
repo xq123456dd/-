@@ -1,0 +1,32 @@
+name: Build
+
+# 本地网络访问不了 maven.neoforged.net 时，可以把项目推到 GitHub，
+# 用这个工作流在 GitHub 的机器上构建，然后到 Actions 页面下载 locksmith-jar 产物。
+
+on:
+  push:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Set up JDK 21
+        uses: actions/setup-java@v4
+        with:
+          distribution: temurin
+          java-version: '21'
+
+      - name: Build
+        run: |
+          chmod +x gradlew
+          ./gradlew build --no-daemon
+
+      - name: Upload jar
+        uses: actions/upload-artifact@v4
+        with:
+          name: locksmith-jar
+          path: build/libs/*.jar
+          if-no-files-found: error

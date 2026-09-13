@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "locksmith:wood_lock",
+    "locksmith:stone_lock",
+    "locksmith:iron_lock",
+    "locksmith:gold_lock",
+    "locksmith:diamond_lock",
+    "locksmith:netherite_lock"
+  ]
+}

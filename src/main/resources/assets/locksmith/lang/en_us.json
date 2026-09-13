@@ -1,0 +1,42 @@
+{
+  "itemGroup.locksmith": "Locksmith",
+
+  "item.locksmith.wood_lock": "Wooden Lock",
+  "item.locksmith.stone_lock": "Stone Lock",
+  "item.locksmith.iron_lock": "Iron Lock",
+  "item.locksmith.gold_lock": "Golden Lock",
+  "item.locksmith.diamond_lock": "Diamond Lock",
+  "item.locksmith.netherite_lock": "Netherite Lock",
+  "item.locksmith.key": "Key",
+  "item.locksmith.master_key": "Master Key",
+
+  "lock_tier.locksmith.wood": "Wooden core",
+  "lock_tier.locksmith.stone": "Stone core",
+  "lock_tier.locksmith.iron": "Iron core",
+  "lock_tier.locksmith.gold": "Golden core",
+  "lock_tier.locksmith.diamond": "Diamond core",
+  "lock_tier.locksmith.netherite": "Netherite core",
+
+  "tooltip.locksmith.lock.usage": "Right click a door, trapdoor or fence gate to lock it",
+  "tooltip.locksmith.lock.tier": "Material: %s",
+  "tooltip.locksmith.lock.security": "Security level: %s",
+  "tooltip.locksmith.key.unbound": "Not bound",
+  "tooltip.locksmith.key.bind_hint": "Sneak + right click a locked door to bind",
+  "tooltip.locksmith.key.bound": "Bound to %s's lock",
+  "tooltip.locksmith.key.location": "Location: %s (%s)",
+  "tooltip.locksmith.key.usage": "Right click the matching lock to unlock",
+  "tooltip.locksmith.master_key": "Admin tool: opens any lock",
+
+  "msg.locksmith.locked": "Locked",
+  "msg.locksmith.locked_by": "Locked (owner: %s)",
+  "msg.locksmith.already_locked": "This block is already locked",
+  "msg.locksmith.not_locked": "This block is not locked",
+  "msg.locksmith.unlocked": "Unlocked",
+  "msg.locksmith.key_bound": "Key bound",
+  "msg.locksmith.key_unbound": "This key is not bound yet, sneak + right click a locked door",
+  "msg.locksmith.key_mismatch": "This key does not fit this lock",
+  "msg.locksmith.not_owner": "This lock is not yours",
+  "msg.locksmith.cannot_break": "This lock belongs to someone else",
+
+  "locksmith.configuration.title": "Locksmith Settings"
+}

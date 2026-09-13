@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "locksmith:key",
+    "locksmith:master_key"
+  ]
+}

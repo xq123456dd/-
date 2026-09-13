@@ -1,0 +1,36 @@
+modLoader = "javafml"
+loaderVersion = "${loader_version_range}"
+license = "${mod_license}"
+
+[[mods]]
+modId = "${mod_id}"
+version = "${mod_version}"
+displayName = "门锁 (Locksmith)"
+authors = "${mod_authors}"
+logoFile = "locksmith_logo.png"
+description = '''
+右键任意门即可上锁，用钥匙右键即可开锁。
+
+· 上锁：手持木锁 / 石锁 / 铁锁 / 金锁 / 钻石锁 / 下界合金锁，右键门、活板门或栅栏门
+· 配钥匙：手持钥匙，潜行右键已上锁的门进行绑定
+· 开锁：手持绑定好的钥匙，右键对应的门
+· 兼容性：原版与绝大多数模组的门（例如麦考 Macaw's Doors / Trapdoors / Fences）都可直接使用；
+  完全自定义的门方块只需要加入 locksmith:lockable 方块标签
+'''
+
+[[mixins]]
+config = "locksmith.mixins.json"
+
+[[dependencies.${mod_id}]]
+modId = "neoforge"
+type = "required"
+versionRange = "${neo_version_range}"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.${mod_id}]]
+modId = "minecraft"
+type = "required"
+versionRange = "${minecraft_version_range}"
+ordering = "NONE"
+side = "BOTH"

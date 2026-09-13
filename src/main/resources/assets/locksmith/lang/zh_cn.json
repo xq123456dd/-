@@ -1,0 +1,42 @@
+{
+  "itemGroup.locksmith": "门锁",
+
+  "item.locksmith.wood_lock": "木锁",
+  "item.locksmith.stone_lock": "石锁",
+  "item.locksmith.iron_lock": "铁锁",
+  "item.locksmith.gold_lock": "金锁",
+  "item.locksmith.diamond_lock": "钻石锁",
+  "item.locksmith.netherite_lock": "下界合金锁",
+  "item.locksmith.key": "钥匙",
+  "item.locksmith.master_key": "万能钥匙",
+
+  "lock_tier.locksmith.wood": "木制锁芯",
+  "lock_tier.locksmith.stone": "石制锁芯",
+  "lock_tier.locksmith.iron": "铁制锁芯",
+  "lock_tier.locksmith.gold": "金制锁芯",
+  "lock_tier.locksmith.diamond": "钻石锁芯",
+  "lock_tier.locksmith.netherite": "下界合金锁芯",
+
+  "tooltip.locksmith.lock.usage": "右键门 / 活板门 / 栅栏门即可上锁",
+  "tooltip.locksmith.lock.tier": "材质：%s",
+  "tooltip.locksmith.lock.security": "安全等级：%s",
+  "tooltip.locksmith.key.unbound": "未绑定",
+  "tooltip.locksmith.key.bind_hint": "潜行右键已上锁的门进行绑定",
+  "tooltip.locksmith.key.bound": "已绑定到 %s 的锁",
+  "tooltip.locksmith.key.location": "位置：%s（%s）",
+  "tooltip.locksmith.key.usage": "右键对应的锁即可开锁",
+  "tooltip.locksmith.master_key": "管理员工具：可以打开任何锁",
+
+  "msg.locksmith.locked": "已上锁",
+  "msg.locksmith.locked_by": "已上锁（主人：%s）",
+  "msg.locksmith.already_locked": "这扇门已经被锁上了",
+  "msg.locksmith.not_locked": "这扇门还没有上锁",
+  "msg.locksmith.unlocked": "已开锁",
+  "msg.locksmith.key_bound": "钥匙绑定成功",
+  "msg.locksmith.key_unbound": "钥匙还没有绑定，请潜行右键已上锁的门",
+  "msg.locksmith.key_mismatch": "这把钥匙打不开这扇门",
+  "msg.locksmith.not_owner": "这不是你的锁",
+  "msg.locksmith.cannot_break": "这是别人的锁，你无法破坏它",
+
+  "locksmith.configuration.title": "门锁设置"
+}
